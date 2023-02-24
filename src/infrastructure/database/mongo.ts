@@ -7,6 +7,7 @@ export const connectDB = async () => {
   ObjectId.prototype.valueOf = function () {
     return this.toString()
   }
+  console.log(process.env.MONGO_DATABASE_URL)
   await mongoose.connect(process.env.MONGO_DATABASE_URL)
   return mongoose
 }

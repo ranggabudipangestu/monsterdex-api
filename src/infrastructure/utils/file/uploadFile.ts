@@ -5,7 +5,7 @@ import fs from "fs";
 // Uploads the specified file to the chosen path.
 export const uploadFile = async (filePath, filename) => {
   const bucketParams = {
-    Bucket: "genstorage",
+    Bucket: process.env.AWS_BUCKETNAME,
     Key: filename,
     Body: fs.readFileSync(filePath),
   };

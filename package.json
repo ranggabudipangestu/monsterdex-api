@@ -6,6 +6,7 @@
   "scripts": {
     "build": "npx tsc && cd client && npm run build",
     "start": "pm2 start dist/index.js",
+    "seed": "ts-node seeder/seedUser.ts",
     "dev": "nodemon  -w src --exec \"ts-node src/index.ts\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
