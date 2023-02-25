@@ -9,8 +9,51 @@ Stack:
 - Database Mongodb. I choose mongoDB because very simple and easy to implement in this project. It can be save and get embedded data
 - for Upload Image, I'm using S3
 
-How to Run
-- clone this project, and then run npm i
-- npm run seed (to seed user as admin)
-- npm run build
-- npm run start
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/ranggabudipangestu/monsterdex-api
+```
+
+Go to the project directory
+
+```bash
+  cd monsterdex-api
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Build the project
+
+```bash
+  npm run build
+```
+
+Run Seeder
+
+```bash
+  npm run seed
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
+
+## Running Tests
+
+To run tests, run the following command
+
+```bash
+  npm run test
+```
+
