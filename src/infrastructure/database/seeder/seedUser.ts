@@ -1,6 +1,6 @@
-import { UserRepository } from "../src/domain/repositories/user";
-import { connectDB } from "../src/infrastructure/database/mongo";
-import Hash from "../src/infrastructure/utils/hashing";
+import { UserRepository } from "../../../domain/repositories/user";
+import { connectDB } from "../mongo";
+import Hash from "../../utils/hashing";
 
 import dotenv from 'dotenv';
 dotenv.config()
