@@ -89,6 +89,11 @@ export class UserService implements IUserService {
           error:false,
           token
         }
+      }else{
+        return {
+          error:true,
+          message:"Password doesn't match"
+        }
       }
 
     }catch(err){
