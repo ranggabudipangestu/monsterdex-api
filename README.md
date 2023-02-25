@@ -34,7 +34,22 @@ Build the project
 
 ```bash
   npm run build
+
+
+Setup your ENV Variable in .env file
+
+```bash
+MONGO_DATABASE_URL=
+BASE_URL=http://localhost:4000
+PORT=4000
+AWS_ENDPOINT=YOUR_AWS_ENDPOINT
+AWS_REGION=YOUR_AWS_ENDPOINT
+AWS_BUCKETNAME=YOUR_AWS_BUCKETNAME
+AWS_ACCESS_KEY=YOUR_AWS_ACCESS_KEY
+AWS_SECRET_KEY=YOUR_AWS_SECRET_KEY
 ```
+
+
 
 Run Seeder
 
