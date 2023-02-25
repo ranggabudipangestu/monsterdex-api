@@ -7,7 +7,7 @@ https://www.postman.com/warped-capsule-173581/workspace/public-api/documentation
 ## Stack
 - NodeJS Express(typescript) version 14
 - Database Mongodb. I choose mongoDB because very simple and easy to implement in this project. It can be save and get embedded data
-- Fo Upload Image, I'm using S3
+- For Upload Image, I'm using S3
 
 
 ## Run Locally
