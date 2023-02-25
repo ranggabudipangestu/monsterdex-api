@@ -34,7 +34,7 @@ Build the project
 
 ```bash
   npm run build
-
+```
 
 Setup your ENV Variable in .env file
 
@@ -48,8 +48,6 @@ AWS_BUCKETNAME=YOUR_AWS_BUCKETNAME
 AWS_ACCESS_KEY=YOUR_AWS_ACCESS_KEY
 AWS_SECRET_KEY=YOUR_AWS_SECRET_KEY
 ```
-
-
 
 Run Seeder
 
